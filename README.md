@@ -4,7 +4,7 @@
 Building a local query-based **search engine** to assist searching and indexing over local area networks. Custom searching and results display.
 * **Crawling**: Using Scrapy, BeautifulSoup to scrap Internet and Intranet websites of IIT Guwahati relevant to the campus and preparing dataset to be indexed
 * **Indexing**: Using Whoosh to index the scraped data, based on schemas defined namely TITLE, PATH and CONTENT
-* **Ranking**: Page ranking algorithms to be implemented to implement relevant search results
+* **Ranking**: Page ranking algorithms to be implemented to implement relevant search results.
 
 ## Dependencies
 * Scrapy
@@ -13,7 +13,7 @@ Building a local query-based **search engine** to assist searching and indexing 
 * Django
 
 ## Code Files
-* datablogger.py: running the scrapy script for scraping www.iitg.ac.in
+* datablogger.py: running the scrapy script for scraping www.iitg.ac.in (later to be implemented on college intranet server)
 * whoosh.py: indexing the scraped data according to schemas created
 * search.py: running searches on the indexed data
 
